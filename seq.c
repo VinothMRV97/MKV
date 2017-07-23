@@ -16,7 +16,7 @@ break;
 }
 if(flag==0)
 {
-printf("%d\t",a);
+//printf("%d\t",a);
 c++;
 }
 a++;
