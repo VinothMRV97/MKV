@@ -2,14 +2,14 @@
 #include <string.h>
 int main()
 {
-char num[100];
-int dec = 0, i, j, len;
+char a[100];
+int d = 0, i, l;
 printf("Enter a number: ");
-gets(num);
-len = strlen(num);
-for(i=0; i<len; i++){
-dec = dec * 10 + ( num[i] - '0' );
+gets(a);
+l = strlen(a);
+for(i=0; i<l; i++){
+d= d* 10 + ( a[i] - '0' );
 }
-printf("%d", dec);
+printf("%d", d);
 return 0;
 }
