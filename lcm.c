@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main() 
 {
-int n1,n2,m;
-scanf("%d%d",&n1,&n2);
-m=(n1>n2)?n1:n2;
+int a,b,m;
+scanf("%d%d",&a,&b);
+m=(a>b)?a:b;
 while(1)
 {
-	if(m%n1==0 && m%n2==0)
+	if(m%a==0 && m%b==0)
 	{
-		printf("The LCM of %d and %d is %d",n1,n2,m);
+		printf("The LCM of %d and %d is %d",a,b,m);
 		break;
 	}
 	++m;
